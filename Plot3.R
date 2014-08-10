@@ -16,4 +16,3 @@ legend("topright", lty=1, y.intersp = 0.5, cex = 0.75, col = c("black","red", "b
 ##Exporting the file to PNG
 dev.copy(png, file = "plot3.png", width = 480, height = 480) ## Copy plot to a PNG file
 dev.off() ## Closing the PNG device
-

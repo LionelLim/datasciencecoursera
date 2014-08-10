@@ -13,3 +13,4 @@ plot(newHousehold$Timestamp, newHousehold$Global_active_power, type="l", cex.lab
 ##Exporting the file to PNG
 dev.copy(png, file = "plot2.png") ## Copy plot to a PNG file
 dev.off() ## Closing the PNG device
+

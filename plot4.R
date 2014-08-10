@@ -25,3 +25,4 @@ plot(newHousehold$Timestamp, newHousehold$Global_reactive_power, type="l", cex.l
 ##Exporting the file to PNG
 dev.copy(png, file = "plot4.png", width = 480, height = 480) ## Copy plot to a PNG file
 dev.off() ## Closing the PNG device
+
