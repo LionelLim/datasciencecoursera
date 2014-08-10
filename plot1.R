@@ -8,8 +8,8 @@ transform(newHousehold, Date = as.Date(Household$Date, format="%d/%m/%Y"))
 
 ##Plotting the Chart
 library(datasets)
-hist(newHousehold$Global_active_power,col = 'red', main = 'Global Active Power', xlab = 'Global Active Power (kilowatts)')
+hist(newHousehold$Global_active_power,col = 'red', cex.main=0.75, cex.lab=0.75, cex.axis=0.75 ,main = 'Global Active Power', xlab = 'Global Active Power (kilowatts)')
 
 ##Exporting the file to PNG
-dev.copy(png, file = "plot1.png") ## Copy plot to a PNG file
+dev.copy(png, file = "plot1.png", width = 480, height = 480) ## Copy plot to a PNG file
 dev.off() ## Closing the PNG device
